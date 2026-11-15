@@ -17,7 +17,8 @@
 /* Contact section: balanced text and larger, uncropped studio portrait. */
 .contact-section .contact-panel.contact-panel-with-portrait{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);align-items:center;column-gap:clamp(22px,3vw,44px);text-align:left;padding:clamp(28px,4.1vw,54px);overflow:hidden}
 .contact-panel-with-portrait .contact-copy{min-width:0;position:relative;z-index:1}
-.contact-panel-with-portrait .contact-copy h2{font-size:clamp(2rem,4.1vw,3.7rem);line-height:1.13}
+.contact-panel-with-portrait .contact-copy h2{font-size:clamp(1.65rem,3.15vw,2.85rem);line-height:1.16;letter-spacing:-.045em}
+@media(min-width:761px){.contact-panel-with-portrait .contact-copy h2 .gradient-text{white-space:nowrap}}
 .contact-panel-with-portrait .contact-copy>p:not(.kicker):not(.contact-note){max-width:500px}
 .contact-panel-with-portrait .contact-portrait-wrap{position:relative;justify-self:center;align-self:center;width:100%;max-width:370px;min-width:0;padding:0;background:none;border:0;box-shadow:none}
 .contact-panel-with-portrait .contact-portrait{display:block;width:100%;height:auto;object-fit:contain;object-position:center;border:2px solid rgba(117,181,247,.6);border-radius:17px;box-shadow:0 16px 42px rgba(0,0,0,.24),0 0 25px rgba(68,146,255,.1)}
